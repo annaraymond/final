@@ -63,5 +63,11 @@ Overall, roadway access is not universal or comprehensive in these areas. There 
 In addition to the density and location of the clinic, I also plotted instances of births throughout this region- of which there were 47000 total. Many of these happened in the urbanized areas and many were clearly unassisted home births. This is remarkably dangerous for all parties involved: the mother, the child, and anyone in the room who could be exposed to bloodborne pathogens. This is just one instance of the dangers of inaccessible healthcare. 
 ![](birth_ppp_ras.png)
 
+# Going Foreward
+Morocco, and Northern Africa in general, is a place that is rapidly undergoing economic, social, and physical change. Morocco is undergoing huge social reforms and one of the few things that might be holding this region back is lack of access to healthcare and infrastructure. A result of this is stagnated growth and an increase in immigration. 
+![](44.png)
+![](45.png)
 
+Perhaps, through data science and machiene learning algorithms we can work together to make the world a more accesible place for all. 
 
+Thank you for coming on my journey with me through first semester!
