@@ -28,11 +28,16 @@ This plot does the same as the bar plot above, but with the third administratifv
 ## Validation of Population Prediction
 In order to validate that the \ predictive model of population was accurate I compared the difference, means, and logarithmic means of each administrative subdivision to the actual population raster to detemrine which model was the most accurate in the country as a whole, and with the most populous subdivision of Casablanca as an example. 
 
-![](Screenshot38.png)
-![](Screenshot42.png)
-![](Screenshot43.png)
+![](10.png)
+![](9.png)
+![](5.png)
 
-!{}(Screenshot
+![](1.png)
+![](2.png)
+![](3.png)
+
+![](8.png)
+![](6.png)
 ___________________________________________________
 ## Access to Healthcare and Roads as Determined by Topography
 
