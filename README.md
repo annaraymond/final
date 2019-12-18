@@ -1,12 +1,15 @@
+
 # Morocco
 An Analysis of Morocco's Borders, Populations, and Services
+
 
 ### Administrative Subdivisions of Morocco
 Administrative 1 and 2 Subdivisions
 
 
+<div class = "pull-right">
 Below are the first and second political subdivisions of Morocco. Morocco is a country located on the North-Western coast of Africa. Its captiol is Casablanca with the greater region of its capitol being Grand Casablanca. Poltically, it has experienced some tumultuous periods with 2011 to 2015 being a major one which led to the redistribution of political borders. 
-
+</div>
 
 ![](Rplot.png)
 
