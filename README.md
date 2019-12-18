@@ -37,9 +37,9 @@ I chose not to include the 3D rendering of the difference of all of the followin
 ### A histogram describing the predicted distributed densities of population
 ![](density_plot_MAR.png)
 ### Difference of Sums Analysis
-![](10.png)![](5.png)![](difference_of_sums_hist.png)
+![](1.png)![](5.png)![](difference_of_sums_hist.png)
 ### Difference of Means Analysis
-![](1.png)![](2.png)![](8.png)
+![](10.png)![](2.png)![](8.png)
 ### Difference of Logarithmic Means Analysis 
 ![](9.png)![](3.png)![](6.png)
 Overall, the Difference of Sums was the smallest error number therby indicating that this predictive model was the closest to the actual population and therefore the most accurate. 
