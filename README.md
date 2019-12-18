@@ -7,10 +7,12 @@ An Analysis of Morocco's Borders, Populations, and Services
 ### Administrative 1 and 2 Subdivisions
 Below are the first and second political subdivisions of Morocco. Morocco is a country located on the North-Western coast of Africa. Its captiol is Rabat which is the seventh capitol city to govern Morocco; however its unofficial cultural, economic, and social capitol is in Casablanca which also happens to be the largest urban settlement in all of Morocco. Poltically, it has experienced some tumultuous periods with 2011 to 2015 being a major one which led to the redistribution of political borders. 
 For more reading on Moroccan political history: https://www.bbc.com/news/world-africa-14123260 
+
 ![](github.png)
 
 For the majority of this page, the second administrative subdivision of Tata, which is in the lower central region of Morocco, as well as the third administrative subdivision of Amerzgane which is in the Ouarzazate region of Morocco. It is directly to the North of the subdivision of Tata.
-![](github2.png)
+
+![](github3.png)
 __________________________________________________
 
 ## Population Density of Morocco
