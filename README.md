@@ -15,8 +15,8 @@ For the majority of this page, the second administrative subdivision of Tata, wh
 ![](github2.png)
 __________________________________________________
 
-## Population Density of Morocco
-### Administrative 1 and 2 Subdivisions by Population Density
+## Population in Morocco
+### Administrative 1 and 2 Subdivisions by Population Predictors
 Below are the same political subdivisions of Morocco with the population density separated out by each administrative subdivision. The total population of Morocco is around 35 million with a great portion of that population distributed to the North Western coastline. Part of the reason this is true is because the coast, throughout Moroccan history, has played an important role economically in terms of trading as well as culutrally in terms of culutral diffusion through the causeways of Europe and the Mediterranean. 
 
 ![](Morocco.png)
@@ -24,7 +24,17 @@ This plot includes the ranking of second administrative levels by population in 
 
 ![](mar_adm22_bp.png)
 This plot does the same as the bar plot above, but with the third administratifve subdivisions which are not plotted on the map of Morocco. It breaks down each administrative 2 subdivisions by population into the administrative 3 subdivisions. The reason why Amerzgane is not visible on this bar plot is that at this point in the project I was using HDX data which is updated more frequently than GADM data, but is not as complete or consistant. This proved to be an issue for me later in the project, so after this I switched to GADM data which was older, but more consistant and easier to work with. Because of Morocco's politically tumultuous past, the borders of these administrative subdivisions do not always line up which is why Amerzgane does not appear for analysis on this graph. 
+
+## Validation of Population Prediction
+In order to validate that the \ predictive model of population was accurate I compared the difference, means, and logarithmic means of each administrative subdivision to the actual population raster to detemrine which model was the most accurate in the country as a whole, and with the most populous subdivision of Casablanca as an example. 
+
+![](Screenshot38.png)
+![](Screenshot42.png)
+![](Screenshot43.png)
+
+!{}(Screenshot
 ___________________________________________________
 ## Access to Healthcare and Roads as Determined by Topography
+
 
 
