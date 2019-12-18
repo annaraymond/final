@@ -1,37 +1,75 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/annaraymond/final/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+# Morocco
+An Analysis of Morocco's Borders, Populations, and Services
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Administrative Subdivisions of Morocco
+### Administrative 1 and 2 Subdivisions
+Below are the first and second political subdivisions of Morocco. Morocco is a country located on the North-Western coast of Africa. Its captiol is Rabat which is the seventh capitol city to govern Morocco; however its unofficial cultural, economic, and social capitol is in Casablanca which also happens to be the largest urban settlement in all of Morocco. Poltically, it has experienced some tumultuous periods with 2011 to 2015 being a major one which led to the redistribution of political borders. 
+For more reading on Moroccan political history: https://www.bbc.com/news/world-africa-14123260 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![](github3.png)
 
-```markdown
-Syntax highlighted code block
+For the majority of this page, the second administrative subdivision of Tata, which is in the lower central region of Morocco, as well as the third administrative subdivision of Amerzgane which is in the Ouarzazate region of Morocco. It is directly to the North of the subdivision of Tata.
 
-# Header 1
-## Header 2
-### Header 3
+![](github2.png)
+__________________________________________________
 
-- Bulleted
-- List
+## Population in Morocco
+### Administrative 1 and 2 Subdivisions by Population Predictors
+Below are the same political subdivisions of Morocco with the population density separated out by each administrative subdivision. The total population of Morocco is around 35 million with a great portion of that population distributed to the North Western coastline. Part of the reason this is true is because the coast, throughout Moroccan history, has played an important role economically in terms of trading as well as culutrally in terms of culutral diffusion through the causeways of Europe and the Mediterranean. 
 
-1. Numbered
-2. List
+![](Morocco.png)
+This plot includes the ranking of second administrative levels by population in the bar plot on the right as well as a corresponding color map of the same second administrative levels geographically placed in Morocco. It is clear that the majority of the population resides in the North Western corridor in the city of Casablanca with the number 1 ranking administrative subdivision in terms of population, but also in the center of Morocco. The regions of Sous-Massa-Draa as well as Marrakech-Tenesifit-Al Haouz also have a lot of people living in them-with 10.9% and 10.7% of the population respectively With the administrative subdivision of Tata and Ourzazate specifically, those are relatively low ranking 
 
-**Bold** and _Italic_ and `Code` text
+![](mar_adm22_bp.png)
+This plot does the same as the bar plot above, but with the third administratifve subdivisions which are not plotted on the map of Morocco. It breaks down each administrative 2 subdivisions by population into the administrative 3 subdivisions. The reason why Amerzgane is not visible on this bar plot is that at this point in the project I was using HDX data which is updated more frequently than GADM data, but is not as complete or consistant. This proved to be an issue for me later in the project, so after this I switched to GADM data which was older, but more consistant and easier to work with. Because of Morocco's politically tumultuous past, the borders of these administrative subdivisions do not always line up which is why Amerzgane does not appear for analysis on this graph. 
 
-[Link](url) and ![Image](src)
-```
+![](giffy-gif.gif)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Validation of Population Prediction
+In order to validate that the predictive model of population was accurate I compared the difference, means, and logarithmic means of each administrative subdivision to the actual population raster to detemrine which model was the most accurate in the country as a whole, and with the most populous subdivision of Casablanca as an example. 
 
-### Jekyll Themes
+### The correlation of population and all dependent variables
+![](added_R_Fit.png)
+### The correlation of water and population in Morocco
+![](correlation_plot_Mar.png)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/annaraymond/final/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+I chose not to include the 3D rendering of the difference of all of the following because the differences turned out to be minimal and Morocco has such a large land area that they all looked the same. There were minute differences with that rendering, but I believed a histogram explaining whether the population was over or underestimated was more effective at bolstering analysis
+### A histogram describing the predicted distributed densities of population
+![](density_plot_MAR.png)
+### Difference of Sums Analysis
+![](5.png)![](1.png)![](difference_of_sums_hist.png)
+### Difference of Means Analysis
+![](10.png)![](2.png)![](8.png)
+### Difference of Logarithmic Means Analysis 
+![](9.png)![](3.png)![](6.png)
+Overall, the Difference of Sums was the smallest error number therby indicating that this predictive model was the closest to the actual population and therefore the most accurate. 
 
-### Support or Contact
+Despite these approaches, the data would still be grossly over-populated or under-populated with respect to the area it is in or the model it is in. Trying to improve this to a substantially smaller margin of error would ultimately require us to ask ourselves about the ethics of doing so. If we were to increase satellite imagery to capture every person and their living habitats, is this ethical? Are we breaching basic codes of privacy? Would the government of an NGO need a warrant to take images such as these? These are all questions that as we improve machine learning, in ways such as Random Forest, and satellite imagery that we need to consider.
+___________________________________________________
+## Access to Healthcare and Roads as Determined by Topography
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The regions of Tata and Amerzgane are relatively rural. They have a mainly desert topography as well as two mountian ranges which run through the area and essentially topographically isolate the region. These counties and subdivisions lie in the south east/south central part of pre-revolution Morocco cerca 2015. In Tata there are an estimated 108283 people, and in Amerzgane there are an estimated 116034 people. Across the two there are around 30 distinctly urbanized areas which can also be classified as human settlements.
+![](33.png)
+
+### Analysis of Urban Settlements
+Tata has almost a third of the total urban areas in these two subdivisions, however it has almost double the area as Amerzgane. There is only one urbanized area within Tata that is even approaching a density of 100 people per gridcell and all of the areas are around 20000 with one exception of a 40000 person settlement. This means that Tata is a very rural and non-densely populated region which reflects the desert terrain and the lack of coastal access. Amerzgane, on the other hand, has two thirds of the urbanized areas in this region despite having only half of the area that Tata possesses. Most of these distinct urban areas are concentrated in the northeast, with the largest one of  50000 people occurring at the 31N and 7.5W parallel. Additionally, the highest density single settlement with almost 300 people per gridcell is in Amerzgane on the eastern border. This reflects that Amerzgane is more densely populated than Tata.
+
+### Access to Roadways and Clinics
+Overall, roadway access is not universal or comprehensive in these areas. There are no primary roads: only private, secondary, and tertiary. Additionally, there are only 7 hospitals and one clinic, none of which are in Tata. Tata is a large administrative boundary with much distance and poor roads to travel on. This means that people seeking healthcare in this region have to drive many miles in order to find the care that they need.
+![](access_throughout.png)
+
+
+### The Problem of Inaccesibility
+In addition to the density and location of the clinic, I also plotted instances of births throughout this region- of which there were 47000 total. Many of these happened in the urbanized areas and many were clearly unassisted home births. This is remarkably dangerous for all parties involved: the mother, the child, and anyone in the room who could be exposed to bloodborne pathogens. This is just one instance of the dangers of inaccessible healthcare. 
+![](birth_ppp_ras.png)
+
+# Going Foreward
+Morocco, and Northern Africa in general, is a place that is rapidly undergoing economic, social, and physical change. Morocco is undergoing huge social reforms and one of the few things that might be holding this region back is lack of access to healthcare and infrastructure. A result of this is stagnated growth and an increase in immigration. 
+![](44.png)
+![](45.png)
+
+Perhaps, through data science and machiene learning algorithms we can work together to make the world a more accesible place for all. 
+
+Thank you for coming on my journey with me through first semester!
