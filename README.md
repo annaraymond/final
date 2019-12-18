@@ -27,11 +27,23 @@ This plot does the same as the bar plot above, but with the third administratifv
 
 ## Validation of Population Prediction
 In order to validate that the predictive model of population was accurate I compared the difference, means, and logarithmic means of each administrative subdivision to the actual population raster to detemrine which model was the most accurate in the country as a whole, and with the most populous subdivision of Casablanca as an example. 
+
+### The correlation of population and all dependent variables
 ![](added_R_Fit.png)
-![](density_plot_MAR.png)
+### The correlation of water and population in Morocco
 ![](correlation_plot_Mar.png)
 
-![](10.png)![](9.png)![](5.png)![](1.png)![](2.png)![](3.png)![](8.png)![](6.png)
+I chose not to include the 3D rendering of the difference of all of the following because the differences turned out to be minimal and Morocco has such a large land area that they all looked the same. There were minute differences with that rendering, but I believed a histogram explaining whether the population was over or underestimated was more effective at bolstering analysis
+
+### A histogram describing the predicted distributed densities of population
+![](density_plot_MAR.png)
+### Difference of Sums Analysis
+![](10.png) ![](5.png)
+### Difference of Means Analysis
+![](1.png)![](2.png) ![](8.png)
+### Difference of Logarithmic Means Analysis 
+![](9.png)![](3.png)![](6.png)
+
 
 Overall, the Difference of Sums was the smallest error number therby indicating that this predictive model was the closest to the actual population and therefore the most accurate. 
 
