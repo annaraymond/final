@@ -25,6 +25,8 @@ This plot includes the ranking of second administrative levels by population in 
 ![](mar_adm22_bp.png)
 This plot does the same as the bar plot above, but with the third administratifve subdivisions which are not plotted on the map of Morocco. It breaks down each administrative 2 subdivisions by population into the administrative 3 subdivisions. The reason why Amerzgane is not visible on this bar plot is that at this point in the project I was using HDX data which is updated more frequently than GADM data, but is not as complete or consistant. This proved to be an issue for me later in the project, so after this I switched to GADM data which was older, but more consistant and easier to work with. Because of Morocco's politically tumultuous past, the borders of these administrative subdivisions do not always line up which is why Amerzgane does not appear for analysis on this graph. 
 
+![](giffy-gif.gif)
+
 ## Validation of Population Prediction
 In order to validate that the predictive model of population was accurate I compared the difference, means, and logarithmic means of each administrative subdivision to the actual population raster to detemrine which model was the most accurate in the country as a whole, and with the most populous subdivision of Casablanca as an example. 
 
