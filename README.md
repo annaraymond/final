@@ -4,7 +4,8 @@ An Analysis of Morocco's Borders, Populations, and Services
 ### Administrative Subdivisions of Morocco
 Administrative 1 and 2 Subdivisions
 
-![](final.png){ width=50% }
+![Github logo](final.png)
+
 __________________________________________________
 
 ### Population Density of Morocco
