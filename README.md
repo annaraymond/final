@@ -27,6 +27,9 @@ This plot does the same as the bar plot above, but with the third administratifv
 
 ## Validation of Population Prediction
 In order to validate that the predictive model of population was accurate I compared the difference, means, and logarithmic means of each administrative subdivision to the actual population raster to detemrine which model was the most accurate in the country as a whole, and with the most populous subdivision of Casablanca as an example. 
+![](added_R_Fit.png)
+![](density_plot_MAR.png)
+![](correlation_plot_Mar.png)
 
 ![](10.png)![](9.png)![](5.png)![](1.png)![](2.png)![](3.png)![](8.png)![](6.png)
 
@@ -35,6 +38,8 @@ Overall, the Difference of Sums was the smallest error number therby indicating 
 In Casablanca itself, the predictive models utilizing the bandwidth tended to overestimate the suburbs while underestimating the innercity. This could be mitigated by a machine learning algorithm such as random forest or gravity models. 
 ___________________________________________________
 ## Access to Healthcare and Roads as Determined by Topography
+![](access_throughout.png)
+
 
 
 
