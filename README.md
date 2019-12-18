@@ -37,7 +37,7 @@ I chose not to include the 3D rendering of the difference of all of the followin
 ### A histogram describing the predicted distributed densities of population
 ![](density_plot_MAR.png)
 ### Difference of Sums Analysis
-![](1.png)![](5.png)![](difference_of_sums_hist.png)
+![](5.png)![](1.png)![](difference_of_sums_hist.png)
 ### Difference of Means Analysis
 ![](10.png)![](2.png)![](8.png)
 ### Difference of Logarithmic Means Analysis 
