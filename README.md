@@ -38,7 +38,7 @@ I chose not to include the 3D rendering of the difference of all of the followin
 ### A histogram describing the predicted distributed densities of population
 ![](density_plot_MAR.png)
 ### Difference of Sums Analysis
-![](10.png) ![](5.png)
+![](10.png) ![](5.png) ![](difference_of_sums_hist.png)
 ### Difference of Means Analysis
 ![](1.png)![](2.png) ![](8.png)
 ### Difference of Logarithmic Means Analysis 
@@ -47,10 +47,20 @@ I chose not to include the 3D rendering of the difference of all of the followin
 
 Overall, the Difference of Sums was the smallest error number therby indicating that this predictive model was the closest to the actual population and therefore the most accurate. 
 
-In Casablanca itself, the predictive models utilizing the bandwidth tended to overestimate the suburbs while underestimating the innercity. This could be mitigated by a machine learning algorithm such as random forest or gravity models. 
+Despite these approaches, the data would still be grossly over-populated or under-populated with respect to the area it is in or the model it is in. Trying to improve this to a substantially smaller margin of error would ultimately require us to ask ourselves about the ethics of doing so. If we were to increase satellite imagery to capture every person and their living habitats, is this ethical? Are we breaching basic codes of privacy? Would the government of an NGO need a warrant to take images such as these? These are all questions that as we improve machine learning, in ways such as Random Forest, and satellite imagery that we need to consider.
 ___________________________________________________
 ## Access to Healthcare and Roads as Determined by Topography
+
+The regions of Tata and Amerzgane are relatively rural. They have a mainly desert topography as well as two mountian ranges which run through the area and essentially topographically isolate the region. These counties and subdivisions lie in the south east/south central part of pre-revolution Morocco cerca 2015. In Tata there are an estimated 108283 people, and in Amerzgane there are an estimated 116034 people. Across the two there are around 30 distinctly urbanized areas which can also be classified as human settlements.
 ![](access_throughout.png)
+
+Tata has almost a third of the total urban areas in these two subdivisions, however it has almost double the area as Amerzgane. There is only one urbanized area within Tata that is even approaching a density of 100 people per gridcell and all of the areas are around 20000 with one exception of a 40000 person settlement. This means that Tata is a very rural and non-densely populated region which reflects the desert terrain and the lack of coastal access. Amerzgane, on the other hand, has two thirds of the urbanized areas in this region despite having only half of the area that Tata possesses. Most of these distinct urban areas are concentrated in the northeast, with the largest one of  50000 people occurring at the 31N and 7.5W parallel. Additionally, the highest density single settlement with almost 300 people per gridcell is in Amerzgane on the eastern border. This reflects that Amerzgane is more densely populated than Tata.
+
+
+Overall, roadway access is not universal or comprehensive in these areas. There are no primary roads: only private, secondary, and tertiary. Additionally, there are only 7 hospitals and one clinic, none of which are in Tata. Tata is a large administrative boundary with much distance and poor roads to travel on. This means that people seeking healthcare in this region have to drive many miles in order to find the care that they need.
+
+![](birth_ppp_ras.png)
+In addition to the density and location of the clinic, I also plotted instances of births throughout this region- of which there were 47000 total. Many of these happened in the urbanized areas and many were clearly unassisted home births. This is remarkably dangerous for all parties involved: the mother, the child, and anyone in the room who could be exposed to bloodborne pathogens. This is just one instance of the dangers of inaccessible healthcare. 
 
 
 
